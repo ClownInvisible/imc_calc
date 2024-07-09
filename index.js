@@ -16,6 +16,10 @@ function calcular(){
   }else if(imc<=34.9){
     aval = "Obesidade grau 1";
   }
-  modal.innerHTML = `${nome}, seu imc indica (${aval})`
+  if(nome !== "" && altura !== "" && peso !== ""){
+    modal.innerHTML = `${nome}, seu imc indica (${aval})`;
+  }else{
+    modal.innerHTML = "Preencha todos os campos!!!";
+  }
 
 }
