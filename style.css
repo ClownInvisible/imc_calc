@@ -94,7 +94,7 @@ article{
   color: orange;
   padding: 1rem;
 }
-@media(max-width: 720px){
+@media(max-width: 1200px){
   li{
     display: flex;
     flex-direction: column;
